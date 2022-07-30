@@ -7,7 +7,7 @@ A terminal string colorizer for the [V language](https://vlang.io).
 
 With vpm:
 ```
-v install mewzax.chalk
+v install Mewzax.chalk
 ```
 
 ## Usage
@@ -26,10 +26,10 @@ Example:
 ```v
 import chalk
 
-# basic usage
+// basic usage
 println('I am really ' + chalk.fg('happy', 'green'))
 
-# you can also nest them
+// you can also nest them
 println('I am really ' + chalk.fg(chalk.style('ANGRY', 'bold'), 'red'))
 ```
 
