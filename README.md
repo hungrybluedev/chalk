@@ -5,11 +5,9 @@ A terminal string colorizer for the [V language](https://vlang.io).
 
 ## Installation
 
-> I will try to submit my fork to vpm, and change this to mewzax.chalk
-
 With vpm:
 ```
-v install etienne_napoleone.chalk
+v install mewzax.chalk
 ```
 
 ## Usage
